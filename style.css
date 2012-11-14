@@ -1,0 +1,138 @@
+﻿a, a:hover, a img, a:hover, li a, li a:hover, input, input:hover {
+	transition: all 0.2s ease-in;
+	-webkit-transition: all 0.2s ease-in;
+	-moz-transition: all 0.2s ease-in;
+	-o-transition: all 0.2s ease-in;
+	-ms-transition: all 0.2s ease-in;
+}
+article.area-labs{
+	/*margin:0 auto;*/
+}
+body {
+	font-family:"Lato";
+	margin:0;
+	padding:0;
+	position:relative;
+	width:auto;
+}
+h1, h2, h3, h4 {
+	font-family:"Crete Round";
+}
+h1{
+	border-bottom:2px solid #DDD;
+	letter-spacing:-1;
+	margin:10 0;
+	padding:7px 0;
+	text-transform: uppercase;
+}
+strong {
+	color:#B81007;
+}
+.clear {
+	clear:both;
+}
+
+nav.menu-top {
+	background:#111;
+	border-bottom:3px #B81007 solid;
+}
+nav.menu-top ul {
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+nav.menu-top ul li a {
+	color:#FFF;
+	font-family:"Viga";
+	font-size:18px;
+	letter-spacing:-1.8px;
+	padding:10px 20px;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+nav.menu-top ul li a img{
+	vertical-align:middle;
+	width:16px;
+}
+nav.menu-top ul li a:hover {
+	background:#B81007;
+	text-shadow:0 0 5px #FEFEFE;
+}
+.button{
+	background-color: #CD0000;
+	background-image: linear-gradient(top, #DE0000, #BB0000);
+	background-image: -ms-linear-gradient(top, #DE0000, #BB0000);
+	background-image: -moz-linear-gradient(top, #DE0000, #BB0000);
+	background-image: -o-linear-gradient(top, #DE0000, #BB0000);
+	background-image: -webkit-linear-gradient(top, #DE0000, #BB0000);
+	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+	border-width: 1px;
+	border-radius: 6px;
+	color: #FFF;
+	font-size: 18px;
+	padding: 5px 10px;
+}
+.button:hover{
+	text-shadow:0 0 3px #FFF;
+}
+.canvas-area{display:none;}
+.video-area{
+	float:left;
+}
+@media (max-width: 800px) {
+ h1 {
+font-size:18px;
+}
+ h2 {
+font-size:17px;
+}
+ h3 {
+font-size:16px;
+}
+.fixed{
+}
+ nav.menu-top ul li {
+padding:10px 20px;
+}
+#jobs .item .thumb, #jobs .item .infojob{
+	margin:0 auto;
+}
+ 
+#form, .info{
+	width:auto;
+}
+.info{
+	font-size:15px;
+}
+}
+@media (min-width: 801px) {
+ h1 {
+font-size:38px;
+}
+ h2 {
+font-size:30px;
+}
+ h3 {
+font-size:23px;
+}
+header, section, footer{
+	margin:0 auto;
+	width:90%;
+}
+.fixed{
+	box-shadow:0 0 5px #222;
+	bottom:0;
+	position:fixed;
+	right:0;
+	z-index:4000;
+}
+ nav.menu-top ul {
+float:left;
+}
+ nav.menu-top ul li {
+float:left;
+}
+ nav.menu-top ul li a {
+float:left;
+}
+}

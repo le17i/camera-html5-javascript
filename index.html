@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Tutorial HTML5 + Javascript: Acessando a câmera via browser</title>
+<meta name="description" content="Leandro Dias é programador e desenvolvedor WEB. Tem experiência em desenvolvimento de sites usando HTML5, CSS3 e JavaScript, usablidade e SEO." />
+<link href='http://fonts.googleapis.com/css?family=Crete+Round' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Viga' rel='stylesheet' type='text/css'>
+<link href='style.css' rel='stylesheet' type='text/css'>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-21239046-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<script type="text/javascript" src="camera.js"></script>
+</head>
+<body>
+
+<nav class="menu-top">
+  <ul>
+    <li><a href="http://www.leandrodias.net/labs-and-projects/experimento-de-css3-toad-do-mario-bros/" id="back">Voltar</a></li>
+    <li><a href="https://github.com/le17i/Experimento-CSS3--TOAD-Vermelho-do-Mario-Bros"><img alt="Download no GitHub" src="http://www.leandrodias.net/labs/github.png"/>Baixe no GitHub</a></li>
+  </ul>
+  <div class="clear"></div>
+</nav>
+<header id="home">
+  <h1><span>Tutorial HTML5 + Javascript: Acessando a câmera via browser</span></h1>
+</header>
+<section>
+  <article class="area-labs">
+  	<div>
+    	<video class="video-area" autoplay id="video" width="400" height="300" ></video>
+        <img src="" id="img-photo">
+        <div class="clear"></div>
+    </div>
+    <div><input type="button" value="Tirar foto" id="takephoto" onClick="snapshot();" class="button" /></div>
+	<div><canvas class="canvas-area" id="canvas" width="400" height="300"></canvas></div>
+  </article>
+</section>
+</body>
+</html>
