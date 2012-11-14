@@ -4,7 +4,7 @@ var video, canvas, context, localMediaStream;
 	function snapshot(){
 		if (localMediaStream) {
      		context.drawImage(video, 0, 0, canvas.width, canvas.height);
-			document.querySelector('img').src = canvas.toDataURL('image/webp');
+			document.getElementById('img-photo').src = canvas.toDataURL('image/webp');
 		  }
 	}
 	
